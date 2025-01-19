@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">MonPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <img src="images/profile.jpg" alt="Profile" class="rounded-circle img-thumbnail profile-image">
+                </div>
+                <div class="col-md-6">
+                    <h2>À propos de moi</h2>
+                    <p>Je suis actuellement stagiaire en première année de développement digital et développeuse web en
+                        début de carrière. Je me passionne pour la création d’expériences numériques captivantes et je
+                        vise à concevoir des solutions web novatrices, tout en renforçant mes compétences techniques et
+                        créatives.</p>
+                    <p>Technologies favorites : HTML5, CSS3, Bootstrap, Python</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Mes Projets</h2>
+            <div class="row">
+
+
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <img src="images/projet1.png" class="card-img-top" alt="Projet Electronique">
+                        <div class="card-body">
+                            <h5 class="card-title">Simulation en Physique Électronique</h5>
+                            <p class="card-text">Création d'un simulateur pour l'analyse des circuits électroniques
+                                simples dans le cadre de ma licence en physique électronique. Analyse théorique et
+                                simulation.</p>
+                            <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <img src="images/projet2.png" class="card-img-top" alt="Palette de Couleurs">
+                        <div class="card-body">
+                            <h5 class="card-title">Palette de Couleurs avec un Styliste</h5>
+                            <p class="card-text">Collaboration avec un styliste pour créer des palettes de couleurs
+                                optimisées dans le cadre d'une formation sur les tendances et les combinaisons de
+                                couleurs.</p>
+                            <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="card">
+                        <img src="images/projet3.png" class="card-img-top" alt="Agence de Voyage">
+                        <div class="card-body">
+                            <h5 class="card-title">Site Statique pour une Agence de Voyage</h5>
+                            <p class="card-text">Création d'un site web statique pour une agence de voyage, présentant
+                                des destinations populaires et les meilleures offres. Responsive et optimisé pour le
+                                SEO.</p>
+                            <a href="#" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Me Contacter</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-success">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Réseaux sociaux</h5>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/"><i class="bi bi-linkedin"></i> Instagram</a>
+                        <a href=""><i class="bi bi-github"></i> GitHub</a>
+                        <a href="#"><i class="bi bi-twitter"></i> Twitter</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>Email: guaicheimane10@gmail.com</p>
+                    <p>Tél: 07 62 73 54 74 </p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Navigation</h5>
+                    <p><a href="#" class="text-white text-decoration-none">Retour en haut</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
